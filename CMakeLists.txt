@@ -725,8 +725,7 @@ endif()
 
 if( ENABLE_HYPRE )
   set( HYPRE_DIR "${CMAKE_INSTALL_PREFIX}/hypre" )
-#  set( HYPRE_URL "${TPL_MIRROR_DIR}/hypre-2186a8fb343f84f109405eed3e298cb1a2615e95.zip" )
-  set( HYPRE_URL "${TPL_MIRROR_DIR}/hypre-d2185217c0eb9568cf835f7a750344bc58ad31a9.zip" )
+  set( HYPRE_URL "${TPL_MIRROR_DIR}/hypre-742f372432dc89456bd4f882c5a0297e5481a6d2.zip" )
 
   message(STATUS "Building HYPRE found at ${HYPRE_URL}")
 
